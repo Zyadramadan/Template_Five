@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Css Files -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- Font Awesomre Library -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Template 5</title>
+  </head>
+  <body>
+    <!-- Start Header -->
+    <header>
+      <div class="container">
+        <h2><span></span>Topic</h2>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li>
+              <a href="#broswe-topics">Browse Topics</a>
+            </li>
+            <li>
+              <a href="#how-it-works">how it works</a>
+            </li>
+            <li><a href="#faqs">FAQs</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <i class="fa fa-circle-user"></i>
+          <i class="fa-solid fa-bars"></i>
+        </nav>
+      </div>
+      <script>
+        const icon = document.querySelector("nav i.fa-bars");
+        const list = document.querySelector("nav ul");
+
+        icon.addEventListener("click", function () {
+          if (list.style.display === "none" || list.style.display === "") {
+            list.style.display = "flex";
+          } else {
+            list.style.display = "none";
+          }
+        });
+      </script>
+    </header>
+    <!-- End Header -->
+    <!-- Start Hero -->
+    <section class="hero">
+      <div class="container">
+        <h1>Discover. Learn. Enjoy</h1>
+        <p>platform for creatives around the world</p>
+        <div class="search">
+          <div class="input">
+            <i class="fas fa-search" style="color: black"></i>
+            <input
+              type="search"
+              placeholder="Design, Code, Marketing, Finance..."
+            />
+          </div>
+          <button>Search</button>
+        </div>
+      </div>
+    </section>
+    <!-- End Hero -->
+    <!-- Start Cards -->
+    <section class="cards">
+      <div class="container">
+        <div class="card one">
+          <div class="content">
+            <div class="header">
+              <h2>Web Design</h2>
+              <div class="number">
+                <h4>14</h4>
+              </div>
+            </div>
+            <p>
+              When you search for free CSS templates, you will notice that
+              TemplateMo is one of the best websites.
+            </p>
+          </div>
+          <div class="image">
+            <img
+              src="images/topics/undraw_Remote_design_team_re_urdx.png"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="card two">
+          <div class="overlay"></div>
+          <div class="content">
+            <div class="header">
+              <h2>Finance</h2>
+              <div class="number">
+                <h4>25</h4>
+              </div>
+            </div>
+            <p>
+              Topic Listing Template includes homepage, listing page, detail
+              page, and contact page. You can feel free to edit and adapt for
+              your CMS requirements.
+            </p>
+            <button>Learn More</button>
+          </div>
+          <div class="footer">
+            <div class="social">
+              <h3>Share:</h3>
+              <div class="icons">
+                <div class="icon">
+                  <i class="fa-brands fa-twitter"></i>
+                </div>
+                <div class="icon">
+                  <i class="fa-brands fa-facebook"></i>
+                </div>
+                <div class="icon">
+                  <i class="fa-brands fa-pinterest"></i>
+                </div>
+              </div>
+            </div>
+            <div class="mark">
+              <i class="fa-regular fa-bookmark"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Cards -->
+    <!-- Start Browse-Topics -->
+    <section class="broswe-topics" id="broswe-topics">
+      <div class="container">
+        <h1>Browse Topics</h1>
+        <div class="design cards">
+          <div class="heading">
+            <h1>Design</h1>
+          </div>
+          <div class="content">
+            <div class="card">
+              <div class="header">
+                <h2>Web Design</h2>
+                <div class="number">
+                  <h4>14</h4>
+                </div>
+              </div>
+              <p>Lorem Ipsum dolor sit amet consectetur</p>
+              <div class="image">
+                <img
+                  src="images/topics/undraw_Remote_design_team_re_urdx.png"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="card">
+              <div class="header">
+                <h2>Graphic</h2>
+                <div class="number">
+                  <h4>75</h4>
+                </div>
+              </div>
+              <p>Lorem Ipsum dolor sit amet consectetur</p>
+              <div class="image">
+                <img
+                  src="images/topics/undraw_Redesign_feedback_re_jvm0.png"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="card">
+              <div class="header">
+                <h2>Logo Design</h2>
+                <div class="number">
+                  <h4>100</h4>
+                </div>
+              </div>
+              <p>Lorem Ipsum dolor sit amet consectetur</p>
+              <div class="image" style="bottom: 0">
+                <img
+                  src="images/topics/colleagues-working-cozy-office-medium-shot.png"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="marketing cards">
+          <div class="heading">
+            <h1>Marketing</h1>
+          </div>
+          <div class="content" style="margin-top: 60px">
+            <div class="card">
+              <div class="header">
+                <h2>Advertising</h2>
+                <div class="number">
+                  <h4>30</h4>
+                </div>
+              </div>
+              <p>Lorem Ipsum dolor sit amet consectetur</p>
+              <div class="image" style="bottom: -50px">
+                <img src="images/topics/undraw_online_ad_re_ol62.png" alt="" />
+              </div>
+            </div>
+            <div class="card">
+              <div class="header">
+                <h2>Video Content</h2>
+                <div class="number">
+                  <h4>65</h4>
+                </div>
+              </div>
+              <p>Lorem Ipsum dolor sit amet consectetur</p>
+              <div class="image">
+                <img
+                  src="images/topics/undraw_Group_video_re_btu7.png"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="card">
+              <div class="header">
+                <h2>Viral Tweet</h2>
+                <div class="number">
+                  <h4>50</h4>
+                </div>
+              </div>
+              <p>Lorem Ipsum dolor sit amet consectetur</p>
+              <div class="image" style="bottom: -20px">
+                <img src="images/topics/undraw_viral_tweet_gndb.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="finance cards">
+          <div class="heading">
+            <h1>Finance</h1>
+          </div>
+          <div class="content">
+            <div class="card one">
+              <div class="header">
+                <h2>Investment</h2>
+                <div class="number">
+                  <h4>30</h4>
+                </div>
+              </div>
+              <p>Lorem Ipsum dolor sit amet consectetur</p>
+              <div class="image" style="bottom: -50px">
+                <img src="images/topics/undraw_Finance_re_gnv2.png" alt="" />
+              </div>
+            </div>
+            <div class="card two">
+              <div class="overlay"></div>
+              <div class="content" style="margin-top: 0">
+                <div class="header">
+                  <h2>Finance</h2>
+                  <div class="number">
+                    <h4>25</h4>
+                  </div>
+                </div>
+                <p>
+                  Topic Listing Template includes homepage, listing page, detail
+                  page, and contact page. You can feel free to edit and adapt
+                  for your CMS requirements.
+                </p>
+                <button>Learn More</button>
+              </div>
+              <div class="footer">
+                <div class="social">
+                  <h3>Share:</h3>
+                  <div class="icons">
+                    <div class="icon">
+                      <i class="fa-brands fa-twitter"></i>
+                    </div>
+                    <div class="icon">
+                      <i class="fa-brands fa-facebook"></i>
+                    </div>
+                    <div class="icon">
+                      <i class="fa-brands fa-pinterest"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="mark">
+                  <i class="fa-regular fa-bookmark"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="music cards">
+          <div class="heading">
+            <h1>Music</h1>
+          </div>
+          <div class="content" style="margin-top: 60px">
+            <div class="card">
+              <div class="header">
+                <h2>Composing Song</h2>
+                <div class="number">
+                  <h4>45</h4>
+                </div>
+              </div>
+              <p>Lorem Ipsum dolor sit amet consectetur</p>
+              <div class="image" style="bottom: -35px">
+                <img
+                  src="images/topics/undraw_Compose_music_re_wpiw.png"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="card">
+              <div class="header">
+                <h2>Online Music</h2>
+                <div class="number">
+                  <h4>45</h4>
+                </div>
+              </div>
+              <p>Lorem Ipsum dolor sit amet consectetur</p>
+              <div class="image" style="bottom: -25px">
+                <img src="images/topics/undraw_happy_music_g6wc.png" alt="" />
+              </div>
+            </div>
+            <div class="card">
+              <div class="header">
+                <h2>Podacst</h2>
+                <div class="number">
+                  <h4>20</h4>
+                </div>
+              </div>
+              <p>Lorem Ipsum dolor sit amet consectetur</p>
+              <div class="image" style="bottom: -80px">
+                <img
+                  src="images/topics/undraw_Podcast_audience_re_4i5q.png"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="education cards">
+          <div class="heading">
+            <h1>Education</h1>
+          </div>
+          <div class="content">
+            <div class="card one">
+              <div class="header">
+                <h2>Graduation</h2>
+                <div class="number">
+                  <h4>80</h4>
+                </div>
+              </div>
+              <p>Lorem Ipsum dolor sit amet consectetur</p>
+              <div class="image" style="bottom: -100px">
+                <img src="images/topics/undraw_Graduation_re_gthn.png" alt="" />
+              </div>
+            </div>
+            <div class="card two">
+              <div class="header">
+                <h2>Educator</h2>
+                <div class="number">
+                  <h4>75</h4>
+                </div>
+              </div>
+              <p>Lorem Ipsum dolor sit amet consectetur</p>
+              <div class="image" style="bottom: -30px">
+                <img src="images/topics/undraw_Educator_re_ju47.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Browse-Topics -->
+    <!-- Start How It Works -->
+    <section class="how-it-works" id="how-it-works">
+      <div class="container">
+        <div class="overlay"></div>
+        <div class="content">
+          <h1>How Does It Work?</h1>
+          <div class="box">
+            <div class="icon">
+              <div class="i-box" style="padding: 20px 18px">
+                <i class="fas fa-search"></i>
+              </div>
+            </div>
+
+            <div class="text">
+              <h2>Search your favourite topic</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Reiciendis, cumque magnam? Sequi, cupiditate quibusdam alias
+                illum sed esse ad dignissimos libero sunt, quisquam numquam
+                aliquam? Voluptas, accusamus omnis?
+              </p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <div class="i-box">
+                <i class="fa-regular fa-bookmark"></i>
+              </div>
+            </div>
+            <div class="text">
+              <h2>Bookmark & Keep it for yourselfc</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Reiciendis, cumque magnam? Sequi, cupiditate quibusdam alias
+                illum sed esse ad dignissimos libero sunt, quisquam numquam
+                aliquam? Voluptas, accusamus omnis?
+              </p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <div class="i-box" style="padding: 20px 16px">
+                <i class="fa fa-book-open"></i>
+              </div>
+            </div>
+            <div class="text">
+              <h2>Read & Enjoy</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Reiciendis, cumque magnam? Sequi, cupiditate quibusdam alias
+                illum sed esse ad dignissimos libero sunt, quisquam numquam
+                aliquam? Voluptas, accusamus omnis?
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End How It Works -->
+    <!-- Start FAQs -->
+    <section class="faqs" id="faqs">
+      <div class="container">
+        <div class="left">
+          <h1>Frequently Asked Questions</h1>
+          <img src="images/faq_graphic.jpg" alt="" />
+        </div>
+        <div class="right">
+          <div class="question">
+            <h2>What Is Topic Listing?</h2>
+            <i class="fa-solid fa-angle-down"></i>
+          </div>
+          <div class="question">
+            <h2>How To Find A Topic?</h2>
+            <i class="fa-solid fa-angle-down"></i>
+          </div>
+          <div class="question">
+            <h2>Does It Need To Paid?</h2>
+            <i class="fa-solid fa-angle-down"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End FAQs -->
+    <!-- Start Contact -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <h1>Get In Touch</h1>
+        <div class="content">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13641.973362427663!2d29.986417250000006!3d31.262446299999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sar!2seg!4v1686233551863!5m2!1sar!2seg"
+            width="600"
+            height="250"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+          <div class="head-office">
+            <h2>Head office</h2>
+            <p>Bay St &, Larkin St, San Francisco, CA 94109, United States</p>
+            <h3>
+              Phone&nbsp;&nbsp;&nbsp;<span style="color: #add2c7"
+                >305-240-9671</span
+              >
+            </h3>
+            <h3>
+              Email&nbsp;&nbsp;&nbsp;<span style="color: #add2c7"
+                >info@company.com1</span
+              >
+            </h3>
+          </div>
+          <div class="dubai-office">
+            <h2>Dubai office</h2>
+            <p>Burj Park, Downtown Dubai, United Arab Emirates</p>
+            <h3>
+              Phone&nbsp;&nbsp;&nbsp;<span style="color: #add2c7"
+                >110-220-3400
+              </span>
+            </h3>
+            <h3>
+              Email&nbsp;&nbsp;&nbsp;<span style="color: #add2c7"
+                >info@company.com1</span
+              >
+            </h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Contact -->
+    <!-- Start Footer -->
+    <footer>
+      <div class="container">
+        <div class="logo">
+          <h2><span></span>Topic</h2>
+        </div>
+        <div class="resources">
+          <h2>Resources</h2>
+          <h2><a href="index.html">Home</a></h2>
+          <h2><a href="#broswe-topics">Browse Topics</a></h2>
+          <h2><a href="#how-it-works">How-It-Works</a></h2>
+          <h2><a href="#faqs">FAQs</a></h2>
+          <h2><a href="#contact">Contact</a></h2>
+        </div>
+        <div class="information">
+          <h2>Information</h2>
+          <h2>305-240-9671</h2>
+          <h2>info@company.com</h2>
+        </div>
+        <div class="copyright">
+          <button>English <i class="fa-solid fa-angle-down"></i></button>
+          <h3>Copyright © 2048 Topic Listing Center. All rights reserved.</h3>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+  </body>
+</html>
